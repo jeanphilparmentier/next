@@ -24,7 +24,6 @@ export default function Add() {
       .then((data) => {
         enWord.current.value = ''
         frWord.current.value = ''
-        // console.log(data);
       })
   }
 
