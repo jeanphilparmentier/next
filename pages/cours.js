@@ -1,7 +1,7 @@
 export default function cours(props) {
   console.log(props)
   return (
-    <div className="container px-4 py-5">
+    <div className="container px-4 py-5" style={{ minHeight: '600px' }}>
       {/* <h1 className="text-center">
         Le BTC est à : {props.results.bpi.EUR.rate}
       </h1> */}

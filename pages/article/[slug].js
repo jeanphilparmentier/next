@@ -19,7 +19,7 @@ export default function Article() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{router.query.slug}</title>
       </Head>
-      <div className="container px-4 py-5">
+      <div className="container px-4 py-5" style={{ minHeight: '600px' }}>
         <h1 className="text-center mb-5">{router.query.slug}</h1>
         <button onClick={pushFunction}>Push to Home</button>
       </div>

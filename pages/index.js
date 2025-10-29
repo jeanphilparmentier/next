@@ -12,8 +12,8 @@ export default function Home(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Titre</title>
       </Head>
-      <div className="container px-4 py-5">
-        <h1 className="mt-3">Bienvenue sur mon application Next</h1>
+      <div className="container px-4 py-5" style={{ minHeight: '600px' }}>
+        <h1 className="mt-3 wide-screen">Bienvenue sur mon application Next</h1>
         <p className="mb-5">
           Le blog communautaire des aficionados du développement web.
         </p>

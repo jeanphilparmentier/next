@@ -4,7 +4,7 @@ export default function index(props) {
   console.log(props)
 
   return (
-    <div className="container px-4 py-5">
+    <div className="container px-4 py-5" style={{ minHeight: '600px' }}>
       <h1 className="text-center">Le Blog</h1>
       <div className="row">
         <div className="div-desc col-12 col-sm-10 col-lg-7 col-xl-8 ms-auto me-auto mb-5">
